@@ -1,0 +1,93 @@
+/* Header y navegación premium */
+header {
+    background: rgba(10, 10, 15, 0.95);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(0, 255, 136, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--accent-neon);
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+    transition: all 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 255, 136, 0.5);
+}
+
+.logo-text h1 {
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    font-weight: 900;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    letter-spacing: 2px;
+}
+
+.tagline {
+    font-family: var(--font-secondary);
+    font-size: 0.9rem;
+    color: var(--accent-blue);
+    font-weight: 500;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+nav ul li a {
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 25px;
+    position: relative;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background: var(--gradient-primary);
+    color: var(--primary-dark);
+    border-color: var(--accent-neon);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 255, 136, 0.3);
+}
+
+.mobile-menu {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--accent-neon);
+    background: rgba(0, 255, 136, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--accent-neon);
+}

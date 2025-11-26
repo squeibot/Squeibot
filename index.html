@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squeibot - Content Creator & Gaming Pro</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="sections.css">
+    <link rel="stylesheet" href="pages.css">
+    <link rel="stylesheet" href="responsive.css">
+   <link rel="stylesheet" href="corrections.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Notificaciones -->
+    <div class="notification-container" id="notificationContainer">
+        <div class="notification">
+            <i class="fas fa-bell"></i>
+            <span class="notification-text">¡Nuevo contenido disponible!</span>
+            <button class="notification-close">&times;</button>
+        </div>
+    </div>
+
+    <!-- Fondo animado -->
+    <div class="background-slider">
+        <video autoplay muted loop class="background-video active">
+            <source src="https://motionbgs.com/media/5736/zoro-vs-grim-reaper.960x540.mp4" type="video/mp4">
+        </video>
+        <video autoplay muted loop class="background-video">
+            <source src="https://motionbgs.com/media/1237/zoro-in-land-of-wano-one-piece.960x540.mp4" type="video/mp4">
+        </video>
+        <video autoplay muted loop class="background-video">
+            <source src="https://motionbgs.com/media/216/zoro-purgatory-onigiri.960x540.mp4" type="video/mp4">
+        </video>
+        <div class="background-overlay"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="https://yt3.ggpht.com/CdVoRs8DhoydQeyabB4RD80MOeegqCxf4Pio2gaUyEGW1iHLW29uG68JJIL_Dx1kcvQfb5Y3xA=s600-c-k-c0x00ffffff-no-rj-rp-mo" alt="Squeibot" class="profile-pic">
+                <div class="logo-text">
+                    <h1>SQUEIBOT</h1>
+                    <span class="tagline">Gaming Content Creator</span>
+                </div>
+            </div>
+            <div class="mobile-menu">☰</div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link active" data-page="home">Inicio</a></li>
+                    <li><a href="#videos" class="nav-link" data-page="videos">Videos</a></li>
+                    <li><a href="#social" class="nav-link" data-page="social">Redes</a></li>
+                    <li><a href="#apps" class="nav-link" data-page="apps">Apps</a></li>
+                    <li><a href="#support" class="nav-link" data-page="support">Soporte</a></li>
+                    <li><a href="#contact" class="nav-link" data-page="contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="loading-spinner"></div>
+                <h2>SQUEIBOT</h2>
+            </div>
+            <p>Cargando experiencia gaming...</p>
+        </div>
+    </div>
+
+    <!-- Páginas -->
+    <main id="main-content">
+        <!-- Página de Inicio -->
+        <section class="page active" id="home-page">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge">PRO GAMER</div>
+                    <h2>BIENVENIDO AL UNIVERSO <span class="gradient-text">SQUEIBOT</span></h2>
+                    <p class="hero-subtitle">Donde los gameplays épicos se encuentran con la adrenalina pura</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">50K+</div>
+                            <div class="stat-label">Seguidores</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Videos</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">1M+</div>
+                            <div class="stat-label">Visualizaciones</div>
+                        </div>
+                    </div>
+
+                    <div class="description-box">
+                        <h3>🎮 <span class="gradient-text">𝐒𝐐𝐔𝐄𝐈𝐁𝐎𝐓</span> 🚀🔥</h3>
+                        <div class="description-content">
+                            <p>¡Bienvenid@ a la zona gaming definitiva! Soy <strong>Squeibot</strong>, tu creador de contenido preferido para experiencias gaming épicas.</p>
+                            
+                            <div class="features-list">
+                                <div class="feature">
+                                    <i class="fas fa-fire"></i>
+                                    <span>Gameplays intensos y llenos de acción</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-trophy"></i>
+                                    <span>Victorias épicas y momentos legendarios</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-laugh"></i>
+                                    <span>Fails divertidos y contenido variado</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-users"></i>
+                                    <span>Comunidad activa y eventos exclusivos</span>
+                                </div>
+                            </div>
+
+                            <div class="gaming-categories">
+                                <h4>⚡ Especialidades Gaming:</h4>
+                                <div class="categories-grid">
+                                    <span class="category-tag">FPS Shooter</span>
+                                    <span class="category-tag">Battle Royale</span>
+                                    <span class="category-tag">Estrategia</span>
+                                    <span class="category-tag">Action RPG</span>
+                                    <span class="category-tag">Competitivo</span>
+                                    <span class="category-tag">Casual</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-buttons">
+                        <a href="#videos" class="cta-button primary" data-page="videos">
+                            <i class="fas fa-play"></i>
+                            Ver Videos
+                        </a>
+                        <a href="#social" class="cta-button secondary" data-page="social">
+                            <i class="fas fa-heart"></i>
+                            Seguir en Redes
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Página de Videos -->
+        <section class="page" id="videos-page">
+            <div class="container">
+                <div class="page-header">
+                    <h2>GALERÍA DE <span class="gradient-text">CONTENIDO</span></h2>
+                    <p>Descubre mis mejores momentos gaming</p>
+                </div>
+                
+                <div class="video-search">
+                    <div class="search-box">
+                        <input type="text" id="videoSearch" placeholder="🔍 Buscar en videos..." class="search-input">
+                        <button id="searchButton" class="search-button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="video-filters">
+                    <button class="filter-btn active" data-filter="all">
+                        <i class="fas fa-globe"></i>
+                        Todo el Contenido
+                    </button>
+                    <button class="filter-btn" data-filter="youtube">
+                        <i class="fab fa-youtube"></i>
+                        YouTube Videos
+                    </button>
+                    <button class="filter-btn" data-filter="shorts">
+                        <i class="fas fa-mobile-alt"></i>
+                        YouTube Shorts
+                    </button>
+                    <button class="filter-btn" data-filter="tiktok">
+                        <i class="fab fa-tiktok"></i>
+                        TikTok Clips
+                    </button>
+                </div>
+                
+                <div class="video-stats"></div>
+                
+                <div class="video-grid" id="videoGrid">
+                    <!-- Los videos se cargarán dinámicamente -->
+                </div>
+
+                <div class="load-more-container">
+                    <button class="load-more-btn" id="loadMoreVideos">
+                        <i class="fas fa-sync-alt"></i>
+                        Cargar Más Contenido
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Página de Redes Sociales -->
+        <section class="page" id="social-page">
+            <div class="container">
+                <div class="page-header">
+                    <h2>CONECTA EN <span class="gradient-text">REDES</span></h2>
+                    <p>Sígueme en todas las plataformas</p>
+                </div>
+
+                <div class="social-grid">
+                    <div class="social-card premium">
+                        <div class="social-icon youtube">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>YouTube Principal</h3>
+                            <p>Gameplays completos, reviews y series exclusivas</p>
+                            <div class="social-stats">
+                                <span>45K+ Suscriptores</span>
+                                <span>500+ Videos</span>
+                            </div>
+                            <a href="https://www.youtube.com/@squeibot" target="_blank" class="social-button">
+                                <i class="fas fa-external-link-alt"></i>
+                                Suscribirse
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="social-card premium">
+                        <div class="social-icon tiktok">
+                            <i class="fab fa-tiktok"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>TikTok Clips</h3>
+                            <p>Momento virales, edits creativos y contenido rápido</p>
+                            <div class="social-stats">
+                                <span>15K+ Seguidores</span>
+                                <span>200+ Clips</span>
+                            </div>
+                            <a href="https://www.tiktok.com/@squeibot" target="_blank" class="social-button">
+                                <i class="fas fa-external-link-alt"></i>
+                                Seguir
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="social-card premium">
+                        <div class="social-icon kick">
+                            <i class="fas fa-broadcast-tower"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>Kick Streams</h3>
+                            <p>Streams en vivo, interacción directa y comunidad</p>
+                            <div class="social-stats">
+                                <span>5K+ Seguidores</span>
+                                <span>Live Weekly</span>
+                            </div>
+                            <a href="https://kick.com/squeibot" target="_blank" class="social-button">
+                                <i class="fas fa-external-link-alt"></i>
+                                Unirse
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="social-card premium">
+                        <div class="social-icon discord">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>Discord Community</h3>
+                            <p>Chat en vivo, eventos exclusivos y gaming parties</p>
+                            <div class="social-stats">
+                                <span>2K+ Miembros</span>
+                                <span>Activo 24/7</span>
+                            </div>
+                            <a href="https://discord.gg/2JTDC4ARjC" target="_blank" class="social-button">
+                                <i class="fas fa-external-link-alt"></i>
+                                Conectar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-highlights">
+                    <h3>📱 Contenido Exclusivo en Cada Plataforma</h3>
+                    <div class="highlights-grid">
+                        <div class="highlight-card">
+                            <i class="fab fa-youtube"></i>
+                            <h4>YouTube</h4>
+                            <p>Gameplays completos, tutoriales y series especiales</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fab fa-tiktok"></i>
+                            <h4>TikTok</h4>
+                            <p>Clips virales, momentos épicos y trends gaming</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fas fa-broadcast-tower"></i>
+                            <h4>Kick</h4>
+                            <p>Streams en vivo, Q&A sessions y gaming maratón</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fab fa-discord"></i>
+                            <h4>Discord</h4>
+                            <p>Comunidad privada, torneos y eventos exclusivos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Página de Apps -->
+        <section class="page" id="apps-page">
+            <div class="container">
+                <div class="page-header">
+                    <h2>HERRAMIENTAS <span class="gradient-text">GAMING</span></h2>
+                    <p>Aplicaciones y recursos para mejorar tu experiencia gaming</p>
+                </div>
+
+                <div class="apps-grid">
+                    <div class="app-card premium">
+                        <div class="app-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="app-badge">PRÓXIMAMENTE</div>
+                        <h3>Squeibot AI Assistant</h3>
+                        <p>Asistente de IA para estrategias gaming, análisis de gameplay y tips personalizados</p>
+                        <div class="app-features">
+                            <span><i class="fas fa-check"></i> Análisis de Gameplay</span>
+                            <span><i class="fas fa-check"></i> Estrategias Personalizadas</span>
+                            <span><i class="fas fa-check"></i> Stats en Tiempo Real</span>
+                        </div>
+                        <a href="#" class="app-button">
+                            <i class="fas fa-bell"></i>
+                            Notificarme
+                        </a>
+                    </div>
+
+                    <div class="app-card premium">
+                        <div class="app-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="app-badge">BETA</div>
+                        <h3>Stream Dashboard Pro</h3>
+                        <p>Panel de control avanzado para streamers con analytics y herramientas de engagement</p>
+                        <div class="app-features">
+                            <span><i class="fas fa-check"></i> Analytics Avanzadas</span>
+                            <span><i class="fas fa-check"></i> Alertas Personalizadas</span>
+                            <span><i class="fas fa-check"></i> Widgets Interactivos</span>
+                        </div>
+                        <a href="#" class="app-button">
+                            <i class="fas fa-download"></i>
+                            Acceder Beta
+                        </a>
+                    </div>
+
+                    <div class="app-card premium">
+                        <div class="app-icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="app-badge">DISPONIBLE</div>
+                        <h3>Clip Factory Pro</h3>
+                        <p>Editor automático de clips para crear contenido viral de tus mejores momentos gaming</p>
+                        <div class="app-features">
+                            <span><i class="fas fa-check"></i> Edición Automática</span>
+                            <span><i class="fas fa-check"></i> Templates Virales</span>
+                            <span><i class="fas fa-check"></i> Export Multiplataforma</span>
+                        </div>
+                        <a href="#" class="app-button">
+                            <i class="fas fa-download"></i>
+                            Descargar
+                        </a>
+                    </div>
+                </div>
+
+                <div class="ai-section">
+                    <h3>🤖 <span class="gradient-text">Squeibot AI</span> - Tu Coach Gaming Personal</h3>
+                    <div class="ai-features">
+                        <div class="ai-feature">
+                            <i class="fas fa-brain"></i>
+                            <h4>Análisis Inteligente</h4>
+                            <p>IA que analiza tus gameplays y sugiere mejoras</p>
+                        </div>
+                        <div class="ai-feature">
+                            <i class="fas fa-chess"></i>
+                            <h4>Estrategias Avanzadas</h4>
+                            <p>Tácticas personalizadas basadas en tu estilo de juego</p>
+                        </div>
+                        <div class="ai-feature">
+                            <i class="fas fa-trophy"></i>
+                            <h4>Progreso Tracking</h4>
+                            <p>Seguimiento detallado de tu evolución como gamer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Página de Soporte -->
+        <section class="page" id="support-page">
+            <div class="container">
+                <div class="page-header">
+                    <h2>CENTRO DE <span class="gradient-text">SOPORTE</span></h2>
+                    <p>Ayuda, recursos y comunidad Squeibot</p>
+                </div>
+
+                <div class="support-grid">
+                    <div class="support-card">
+                        <div class="support-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <h3>FAQ & Ayuda</h3>
+                        <p>Respuestas a preguntas frecuentes y guías de uso</p>
+                        <a href="#" class="support-button">
+                            <i class="fas fa-book"></i>
+                            Ver FAQ
+                        </a>
+                    </div>
+
+                    <div class="support-card">
+                        <div class="support-icon">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <h3>Reportar Problema</h3>
+                        <p>Informa sobre bugs o issues técnicos</p>
+                        <a href="#" class="support-button">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            Reportar Bug
+                        </a>
+                    </div>
+
+                    <div class="support-card">
+                        <div class="support-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Sugerencias</h3>
+                        <p>Comparte tus ideas para mejorar el contenido</p>
+                        <a href="#" class="support-button">
+                            <i class="fas fa-comment"></i>
+                            Enviar Idea
+                        </a>
+                    </div>
+
+                    <div class="support-card">
+                        <div class="support-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <h3>Descargas</h3>
+                        <p>Recursos, overlays y herramientas gratuitas</p>
+                        <a href="#" class="support-button">
+                            <i class="fas fa-cloud-download-alt"></i>
+                            Descargar
+                        </a>
+                    </div>
+                </div>
+
+                <div class="community-section">
+                    <h3>👥 Comunidad Squeibot</h3>
+                    <div class="community-stats">
+                        <div class="community-stat">
+                            <div class="stat-number">10K+</div>
+                            <div class="stat-label">Miembros Activos</div>
+                        </div>
+                        <div class="community-stat">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Soporte Comunitario</div>
+                        </div>
+                        <div class="community-stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Torneos Mensuales</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Página de Contacto -->
+        <section class="page" id="contact-page">
+            <div class="container">
+                <div class="page-header">
+                    <h2>CONTACTO <span class="gradient-text">DIRECTO</span></h2>
+                    <p>Hablemos sobre gaming, colaboraciones y más</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>📧 Información de Contacto</h3>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Principal</h4>
+                                <a href="mailto:squeiboty@gmail.com">squeiboty@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-business-time"></i>
+                            <div>
+                                <h4>Colaboraciones</h4>
+                                <span>Disponible para proyectos gaming</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Tiempo de Respuesta</h4>
+                                <span>24-48 horas máximo</span>
+                            </div>
+                        </div>
+
+                        <div class="emergency-contact">
+                            <h4>🚨 Contacto Urgente</h4>
+                            <p>Para issues críticos o colaboraciones urgentes</p>
+                            <a href="mailto:squeiboty@gmail.com?subject=URGENTE" class="emergency-button">
+                                <i class="fas fa-exclamation-circle"></i>
+                                Email Urgente
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <h3>✉️ Enviar Mensaje</h3>
+                            
+                            <div class="form-group">
+                                <label for="name">Nombre Completo</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Asunto</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Selecciona un tema</option>
+                                    <option value="collaboration">Colaboración</option>
+                                    <option value="support">Soporte Técnico</option>
+                                    <option value="content">Sugerencia de Contenido</option>
+                                    <option value="business">Negocios</option>
+                                    <option value="other">Otro</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Cuéntame en qué puedo ayudarte..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" required>
+                                    <span class="checkmark"></span>
+                                    Acepto recibir notificaciones de nuevo contenido
+                                </label>
+                            </div>
+
+                            <button type="submit" class="submit-button">
+                                <i class="fas fa-paper-plane"></i>
+                                Enviar Mensaje
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="partnership-section">
+                    <h3>🤝 Colaboraciones & Partnerships</h3>
+                    <div class="partnership-types">
+                        <div class="partnership-type">
+                            <h4>🎮 Marcas Gaming</h4>
+                            <p>Colaboraciones con marcas de hardware, software gaming y accesorios</p>
+                        </div>
+                        <div class="partnership-type">
+                            <h4>📺 Contenido</h4>
+                            <p>Collaboraciones con otros creadores y proyectos de contenido</p>
+                        </div>
+                        <div class="partnership-type">
+                            <h4>🏆 Eventos</h4>
+                            <p>Participación en torneos, eventos gaming y streams especiales</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="https://yt3.ggpht.com/CdVoRs8DhoydQeyabB4RD80MOeegqCxf4Pio2gaUyEGW1iHLW29uG68JJIL_Dx1kcvQfb5Y3xA=s600-c-k-c0x00ffffff-no-rj-rp-mo" alt="Squeibot" class="profile-pic">
+                        <div class="logo-text">
+                            <h3>SQUEIBOT</h3>
+                            <span>Professional Gaming Content</span>
+                        </div>
+                    </div>
+                    <p>Creando experiencias gaming épicas desde el día uno. Únete a la revolución del contenido gaming de calidad.</p>
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/@squeibot" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@squeibot" target="_blank" class="social-link">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://kick.com/squeibot" target="_blank" class="social-link">
+                            <i class="fas fa-broadcast-tower"></i>
+                        </a>
+                        <a href="https://discord.gg/2JTDC4ARjC" target="_blank" class="social-link">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Contenido</h4>
+                        <ul>
+                            <li><a href="#videos" data-page="videos">Todos los Videos</a></li>
+                            <li><a href="#videos" data-page="videos" data-filter="youtube">YouTube</a></li>
+                            <li><a href="#videos" data-page="videos" data-filter="shorts">Shorts</a></li>
+                            <li><a href="#videos" data-page="videos" data-filter="tiktok">TikTok</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Recursos</h4>
+                        <ul>
+                            <li><a href="#apps" data-page="apps">Aplicaciones</a></li>
+                            <li><a href="#support" data-page="support">Soporte</a></li>
+                            <li><a href="#support" data-page="support">FAQ</a></li>
+                            <li><a href="#support" data-page="support">Descargas</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Términos de Servicio</a></li>
+                            <li><a href="#">Política de Privacidad</a></li>
+                            <li><a href="#">Cookies</a></li>
+                            <li><a href="#contact" data-page="contact">Contacto Legal</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h4>🚀 No Te Pierdas Nada</h4>
+                    <p>Suscríbete para recibir notificaciones de nuevo contenido</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="tu.email@ejemplo.com" class="newsletter-input">
+                        <button class="newsletter-button">
+                            <i class="fas fa-bell"></i>
+                            Suscribir
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2024 <strong>SQUEIBOT</strong>. Todos los derechos reservados. | Creado con ❤️ para la comunidad gaming</p>
+                </div>
+                <div class="footer-stats">
+                    <span><i class="fas fa-eye"></i> 1M+ Visitas</span>
+                    <span><i class="fas fa-heart"></i> 50K+ Seguidores</span>
+                    <span><i class="fas fa-gamepad"></i> Online Ahora</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+    <script src="mobile-menu.js"></script>
+    <script src="videos-loader.js"></script>
+    <script src="background-slider.js"></script>
+    <script src="1notifications.js"></script>
+    <script src="page-router.js"></script>
+    <script src="contact-form.js"></script>
+    <script src="tiktok-loader.js"></script>
+</body>
+</html>
